@@ -60,17 +60,107 @@ img {
 }
 
 .header {
-	border: 5px solid red;
-
 	grid-area: header;
 }
 
 .main-content {
-	border: 5px solid orange;
-
 	grid-area: main-content;
+	box-shadow: 0px 3px 4px rgb(187, 187, 187) inset;
+	background-color: rgb(229, 230, 231);
 }
 
 /*HEADER*/
+
+.header .grid {
+	height: 18vh;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 2fr 1fr;
+	grid-template-areas:
+		'top-left top-right'
+		'bottom-left bottom-right';
+}
+
+.top-left {
+	grid-area: top-left;
+	display: flex;
+}
+
+.searchbar {
+	border-radius: 10px;
+	border: none;
+	background-color: rgb(229, 230, 231);
+	height: 1.2rem;
+	width: 100%;
+}
+
+.top-right {
+	grid-area: top-right;
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+}
+
+.small-pfp {
+	height: 30px;
+	width: 30px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	background-image: url(assets/pfp.png);
+	background-size: cover;
+}
+.bottom-left {
+	grid-area: bottom-left;
+	display: flex;
+}
+
+.big-pfp {
+	height: 50px;
+	width: 50px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	background-image: url(assets/pfp.png);
+	background-size: cover;
+}
+
+.bottom-left p {
+	font-size: 0.7rem;
+	font-weight: bold;
+}
+
+.user {
+	font-size: 1.2rem;
+}
+
+.nav {
+	color: red;
+}
+.bottom-right {
+	grid-area: bottom-right;
+	display: flex;
+}
+
+.header-button {
+	font-size: 0.8rem;
+
+	padding: 1rem;
+	background-color: rgb(73, 130, 243);
+	border-radius: 1rem;
+	color: white;
+	border: none;
+	font-weight: bold;
+	line-height: 0px;
+}
+
+.top-left,
+.top-right,
+.bottom-left,
+.bottom-right {
+	align-items: center;
+	padding: 0px 1.5rem;
+	gap: 1rem;
+}
 
 /*MAIN-CONTENT*/
