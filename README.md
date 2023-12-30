@@ -8,3 +8,5 @@ soooooo back at it...this is the last project before I finish Intermediate HTML 
 
 12/29/23
 NO WAY IT'S BEEN 3 fucking months....oh em gee...well i'm locking in NOW so i'm gonna finish this LOL but be so for real, but its okay cause 2024 is my year i can sense it im gonna be cracked @ web dev just watch lol
+
+OKAY IT'S AN HOUR LATERRRRRR and i finished the trending + announcement parts and debugged/fixed the error that made me lose hope all those months ago LOL im back on my grinddd wooohoooo okay bye that was a good like reminder of how much i love coding
