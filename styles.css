@@ -102,8 +102,8 @@ img {
 }
 
 .small-pfp {
-	height: 30px;
-	width: 30px;
+	height: 45px;
+	width: 45px;
 	background-color: #bbb;
 	border-radius: 50%;
 	display: inline-block;
@@ -163,4 +163,86 @@ img {
 	gap: 1rem;
 }
 
+header > .div {
+	align-items: center;
+	padding: 0px 1.5rem;
+	gap: 1rem;
+}
+
 /*MAIN-CONTENT*/
+
+.main-content {
+	background-color: yellow;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 2fr 1fr;
+	grid-template-areas:
+		'your-projects announcements'
+		'your-projects trending';
+}
+
+.mc-container {
+	margin: 1rem;
+}
+
+.your-projects {
+	border: 5px solid red;
+	margin-top: 3rem;
+	grid-area: your-projects;
+}
+
+/*
+
+
+*/
+
+.announcements {
+	margin-top: 3rem;
+	border: 5px solid orange;
+	background-color: white;
+	grid-area: announcements;
+}
+.announcements-container {
+	margin: 2rem;
+}
+
+.announcements-tab {
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+.announcements-tab h1 {
+	font-size: 0.9rem;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.announcements-tab p {
+	font-size: 0.8rem;
+	color: grey;
+}
+
+.trending {
+	border: 5px solid green;
+	grid-area: trending;
+	background-color: white;
+}
+
+.trending-container {
+	margin: 1rem;
+}
+.trending-tab {
+	display: flex;
+	gap: 1.5em;
+	align-content: center;
+	margin-bottom: 1rem;
+}
+
+.trending-tab p {
+	font-size: 0.8rem;
+	align-self: center;
+}
+
+.grey-font {
+	color: grey;
+}
