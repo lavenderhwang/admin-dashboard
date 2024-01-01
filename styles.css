@@ -182,10 +182,10 @@ header > .div {
 
 .mc-container {
 	margin: 1rem;
+	margin-bottom: 4rem;
 }
 
 .your-projects {
-	border: 5px solid red;
 	margin-top: 3rem;
 	grid-area: your-projects;
 }
@@ -199,12 +199,41 @@ header > .div {
 }
 
 .your-projects-card {
-	border: 1px solid green;
 	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0px 3px 4px rgb(187, 187, 187), 8px 0px 0px orange inset;
+}
+
+.your-projects-title {
+	position: absolute;
+	font-size: 1em;
+	font-weight: 500;
+	margin-bottom: 5px;
+	top: 130px;
+}
+
+.announcements-title {
+	position: absolute;
+	font-size: 1rem;
+	font-weight: 500;
+	margin-bottom: 5px;
+	top: 130px;
+}
+
+.trending-title {
+	position: absolute;
+	font-size: 1rem;
+	font-weight: 500;
+	margin-bottom: 5px;
+	top: 540px;
 }
 
 .card-content {
 	margin: 2rem;
+	height: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .card-content h1 {
@@ -219,7 +248,6 @@ header > .div {
 }
 
 .card-icons {
-	margin-top: 2em;
 	display: flex;
 	justify-content: flex-end;
 	gap: 1em;
@@ -227,9 +255,11 @@ header > .div {
 
 .announcements {
 	margin-top: 3rem;
-	border: 5px solid orange;
+	box-shadow: 0px 3px 4px rgb(187, 187, 187);
+
 	background-color: white;
 	grid-area: announcements;
+	border-radius: 10px;
 }
 .announcements-container {
 	margin: 2rem;
@@ -252,9 +282,14 @@ header > .div {
 }
 
 .trending {
-	border: 5px solid green;
+	box-shadow: 0px 3px 4px rgb(187, 187, 187);
 	grid-area: trending;
 	background-color: white;
+	border-radius: 10px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
 
 .trending-container {
@@ -270,6 +305,25 @@ header > .div {
 .trending-tab p {
 	font-size: 0.8rem;
 	align-self: center;
+}
+
+.pfp {
+	height: 45px;
+	width: 45px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	background-size: cover;
+}
+
+.pfp-penguin {
+	background-image: url(assets/pfp-penguin.png);
+}
+.pfp-spidey {
+	background-image: url(assets/pfp-spidey.png);
+}
+.pfp-horse {
+	background-image: url(assets/pfp-horse.png);
 }
 
 .grey-font {
