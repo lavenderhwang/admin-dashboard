@@ -1,12 +1,14 @@
-# admin-dashboard
+# Admin Dashboard
 
-Start Date: Aug 26, 2023
-Complete Date:
+This is an **Admin Dashboard** [project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard) built as part of [The Odin Project's JavaScript Curriculum](https://www.theodinproject.com/). It features a responsive layout designed for managing and displaying key data, making it easy for users to navigate and access important information.
 
-8/26/23
-soooooo back at it...this is the last project before I finish Intermediate HTML + CSS! i feel like i've learned a lot-but i'm just happy i FINALLY learned grid. i think i like flex a little more, but i feel like grid is more handy, i just need to get more used to it. school started so i haven't been on my TOP grind, but i know like 1000% i've improved a lot. like even this project, i know i might get stuck in some places but i didn't doubt for a sec i couldn't finish it or anything, which is definitely great! anyways im excited so yayy i finished the sidebar today, so im just gonna split into the header and main-content.
+## Technologies Used
 
-12/29/23
-NO WAY IT'S BEEN 3 fucking months....oh em gee...well i'm locking in NOW so i'm gonna finish this LOL but be so for real, but its okay cause 2024 is my year i can sense it im gonna be cracked @ web dev just watch lol
+- HTML
+- CSS
 
-OKAY IT'S AN HOUR LATERRRRRR and i finished the trending + announcement parts and debugged/fixed the error that made me lose hope all those months ago LOL im back on my grinddd wooohoooo okay bye that was a good like reminder of how much i love coding
+## Project Goals
+
+- Clone a UI design using web development techniques
+- Practice advanced HTML and CSS concepts
+- Enhance skills in responsive web design and layout using Flexbox
