@@ -2,6 +2,8 @@
 
 This is an **Admin Dashboard** [project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard) built as part of [The Odin Project's JavaScript Curriculum](https://www.theodinproject.com/). It features a responsive layout designed for managing and displaying key data, making it easy for users to navigate and access important information.
 
+## Live Preview 👉: [Admin Dashboard](https://lavenderhwang.github.io/admin-dashboard/)
+
 ## Technologies Used
 
 - HTML
